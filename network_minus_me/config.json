@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "JamesZD"
+  },
+  "text": {
+    "more": "Group 1 = Family, Group 2 = Ancestors, Group 3 = Vanderbilt, Group 4 = Georgia Southern, Group 5 = Highschool, Group 6 = The Field Museum, Group 7 = Digital, Group 8 = TV, Group 9 = Arkansas",
+    "intro": "Citing my Intellectual Heritage",
+    "title": "Ten Thousand Minds on Fire"
+  },
+  "legend": {
+    "edgeLabel": "Connection",
+    "colorLabel": "Group",
+    "nodeLabel": "Inspiration"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "line",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3,
+      "minEdgeSize": 3,
+      "minNodeSize": 8,
+      "maxNodeSize": 8
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
